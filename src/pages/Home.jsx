@@ -1,7 +1,7 @@
 import React, { Suspense, useState } from 'react'
 import { Canvas } from '@react-three/fiber'
 import Loader from '../components/Loader'
-import Island from '../models/Island'
+import { Island } from '../models/Island'
 import Sky from '../models/Sky'
 import Bird from '../models/Bird'
 import Plane from '../models/Plane'
@@ -69,8 +69,8 @@ const Home = () => {
             setCurrentStage = {setCurrentStage}
           />
           <Plane
-          planeScale = {planeScale}
-          planePosition = {planePosition}
+          scale = {planeScale}
+          position = {planePosition}
           isRotating =  {isRotating}
           rotation = {[0, 20, 0 ]}
           />

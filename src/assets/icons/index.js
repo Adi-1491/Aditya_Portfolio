@@ -1,34 +1,45 @@
-import css from './css.svg'
-import express from './express.svg'
-import git from './git.svg'
-import github from './github.svg'
-import html from './html.svg'
-import javascript from './javascript.svg'
-import mongodb from './mongodb.svg'
-import motion from './motion.svg'
-import mui from './mui.svg'
-import nextjs from './nextjs.svg'
-import nodejs from './nodejs.svg'
-import react from './react.svg'
-import redux from './redux.svg'
-import sass from './sass.svg'
-import tailwindcss from './tailwindcss.svg'
-import typescript from './typescript.svg'
-import linkedin from './linkedin.svg'
-import twitter from './twitter.svg'
-import car from './car.svg'
-import estate from './estate.svg'
-import pricewise from './pricewise.svg'
-import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
-import threads from './threads.svg'
-import arrow from './arrow.svg'
-import contact from './contact.svg'
+import css from './css.svg?url'
+import express from './express.svg?url'
+import git from './git.svg?url'
+import github from './github.svg?url'
+import html from './html.svg?url'
+import javascript from './javascript.svg?url'
+import mongodb from './mongodb.svg?url'
+import motion from './motion.svg?url'
+import mui from './mui.svg?url'
+import nextjs from './nextjs.svg?url'
+import nodejs from './nodejs.svg?url'
+import react from './react.svg?url'
+import redux from './redux.svg?url'
+import sass from './sass.svg?url'
+import tailwindcss from './tailwindcss.svg?url'
+import typescript from './typescript.svg?url'
+import linkedin from './linkedin.svg?url'
+import twitter from './twitter.svg?url'
+import car from './car.svg?url'
+import estate from './estate.svg?url'
+import pricewise from './pricewise.svg?url'
+import snapgram from './snapgram.svg?url'
+import summiz from './summiz.svg?url'
+import threads from './threads.svg?url'
+import arrow from './arrow.svg?url'
+import contact from './contact.svg?url'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import c_plusplus from './c_plusplus.svg?url'
+import java from './java.svg?url'
+import playwright from './playwright.svg?url'
+import selenium from './selenium.svg?url'
+import cucumber from './cucumber.webp'
+import task_manager from './task_manager.webp'
+import scratch_app from './scratch_app.svg'
 
 export {
     css,
+    java,
+    playwright,
+    selenium,
+    cucumber,
     express,
     git,
     github,
@@ -55,5 +66,8 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    c_plusplus,
+    task_manager,
+    scratch_app
 }
