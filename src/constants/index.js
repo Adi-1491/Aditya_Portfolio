@@ -190,6 +190,7 @@ export const projects = [
         name: 'Task Management Application',
         description: 'Developed a full-stack task manager, enabling users to create, view, update, and delete tasks with due dates and status.',
         link: 'https://github.com/Adi-1491/Task-Manager',
+        livelink:'https://taskmanager777.vercel.app'
     },
     {
         iconUrl: scratch_app,
@@ -197,6 +198,7 @@ export const projects = [
         name: 'Scratch-App',
         description: 'A drag-and-drop visual programming environment inspired by MIT Scratch, allowing users to create animations and interactive programs without writing code.',
         link: 'https://github.com/Adi-1491/Scratch--App',
+        livelink:'https://scratch-app-three.vercel.app'
     },
     {
         iconUrl: threads,
@@ -204,5 +206,6 @@ export const projects = [
         name: 'AI PR Reviewer',
         description: 'Built an AI assistant to automatically review GitHub PRs using OpenAI and GitHub APIs.',
         link: 'https://github.com/Adi-1491/ai-pr-reviewer',
+        livelink:'https://ai-pr-reviewer-two.vercel.app'
     },
 ];
