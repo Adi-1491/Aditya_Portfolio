@@ -186,7 +186,7 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: task_manager,
-        theme: 'btn-back-black',
+        theme: 'btn-back-green',
         name: 'Task Management Application',
         description: 'Developed a full-stack task manager, enabling users to create, view, update, and delete tasks with due dates and status.',
         link: 'https://github.com/Adi-1491/Task-Manager',
@@ -200,9 +200,9 @@ export const projects = [
     },
     {
         iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Assessing Security of Twitter by Sentiment Analysis using Deep Learning',
-        description: 'Developed a sentiment analysis model to classify tweets by sentiment polarity and detect potential bot accounts, improving insight accuracy.',
-        link: 'https://www.ijraset.com/research-paper/assessing-security-of-twitter-by-sentimental-analysis-using-deep-learning',
+        theme: 'btn-back-blue',
+        name: 'AI PR Reviewer',
+        description: 'Built an AI assistant to automatically review GitHub PRs using OpenAI and GitHub APIs.',
+        link: 'https://github.com/Adi-1491/ai-pr-reviewer',
     },
 ];
