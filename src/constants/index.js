@@ -26,7 +26,9 @@ import {
     tailwindcss,
     threads,
     typescript,
-    task_manager
+    task_manager,
+    TestNG,
+    YouTube
 } from "../assets/icons";
 
 export const skills = [
@@ -119,6 +121,11 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: TestNG,
+        name: "TestNG",
+        type: "Testing",
     }
 ];
 
@@ -163,6 +170,16 @@ export const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
+    {
+        title: "Associate Software Engineer",
+        company_name: "Fidelity Investments",
+        icon: fidelityinvestments,
+        iconBg: "#b7e4c7",
+        date: "Aug 2025 - Present",
+        points: [
+            "Accountable for Fidelity Health engineering function to develop and test robust market competitive products across Health",
+        ],
+    }
 ];
 
 export const socialLinks = [
@@ -208,4 +225,12 @@ export const projects = [
         link: 'https://github.com/Adi-1491/ai-pr-reviewer',
         livelink:'https://ai-pr-reviewer-two.vercel.app'
     },
+    {
+        iconUrl: YouTube,
+        theme: 'btn-white',
+        name: 'YouTube Analytics Dashboard',
+        description: 'Created an analytics dashboard to track YouTube channel metrics and engagement in real time',
+        link: 'https://github.com/Adi-1491/yt-analytics-dashboard',
+        livelink:'https://yt-analytics-dashboard.vercel.app'
+    }
 ];

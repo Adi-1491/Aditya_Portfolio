@@ -33,6 +33,8 @@ import selenium from './selenium.svg?url'
 import cucumber from './cucumber.webp'
 import task_manager from './task_manager.webp'
 import scratch_app from './scratch_app.svg'
+import TestNG from './TestNG.png'
+import YouTube from './Youtube_logo.png'
 
 export {
     css,
@@ -69,5 +71,7 @@ export {
     soundoff,
     c_plusplus,
     task_manager,
-    scratch_app
+    scratch_app,
+    TestNG,
+    YouTube,
 }
